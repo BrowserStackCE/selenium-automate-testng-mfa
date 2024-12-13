@@ -1,0 +1,29 @@
+
+userName:
+accessKey:
+
+projectName: BrowserStack MFA
+
+buildName: browserstack MFA
+
+buildIdentifier: '#${BUILD_NUMBER}'
+
+framework: testng
+
+platforms:
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: latest
+    
+
+parallelsPerPlatform: 1
+
+source: testng:sample-master:v1.1
+
+browserstackLocal: true
+
+debug: false
+networkLogs: false
+consoleLogs: errors
+testObservability: true
